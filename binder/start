@@ -4,6 +4,7 @@
 
 export PANGEO_ENV="binder"
 cp dask_config.yml ${NB_PYTHON_PREFIX}/etc/dask/dask.yml
+cp dask_config.yml ${HOME}/.config/dask/dask.yml
 
 # ==== ONLY EDIT WITHIN THIS BLOCK =====
 
