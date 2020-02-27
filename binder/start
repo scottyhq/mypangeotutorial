@@ -1,0 +1,10 @@
+#!/bin/bash -l
+
+# ==== ONLY EDIT WITHIN THIS BLOCK =====
+
+export PANGEO_ENV="binder"
+cp dask_config.yml ~/.config/dask/dask.yml
+
+# ==== ONLY EDIT WITHIN THIS BLOCK =====
+
+exec "$@"
