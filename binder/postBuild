@@ -3,3 +3,7 @@ jupyter labextension install --clean dask-labextension \
                              @jupyter-widgets/jupyterlab-manager \
                              @pyviz/jupyterlab_pyviz \
                              jupyter-leaflet
+
+
+cp dask_config.yml ${NB_PYTHON_PREFIX}/etc/dask/dask.yml
+# EOF
